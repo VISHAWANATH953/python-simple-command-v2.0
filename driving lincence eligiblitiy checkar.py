@@ -1,4 +1,13 @@
 ### Enter your age
+print("#$$#################$$####$$4#####$$$$$$$$$$$%######$$$%############$$$%#######$$$$$$$$#####$$$$$$$$###$$$$$$$$$%####")
+print("##$$###############$$#####$$4#####$$$$$$$$$$$%######$$$%############$$$%#######$$#####$#####$##################$#####")
+print("###$$#############$$######$$4#####$$################$$$%############$$$%#######$$#####$#####$##################$#####")
+print("#####$$#########$$########$$4#####$$$$$$$$$$$%######$$$%$$$$$$$$$$$$$$$%#######$$$$$$$$#####$##################$#####")
+print("######$$#######$$#########$$4#####$$$$$$$$$$$%######$$$%$$$$$$$$$$$$$$$%#######$$$$$$$$#####$$$$$$$####$$$$$$$$$#####")
+print("#######$$#####$$##########$$4###############$$######$$$%############$$$%#############$$############$###########$#####")
+print("########$$###$$###########$$4###############$$######$$$%############$$$%#############$$############$###########$#####")
+print("#########$$#$$############$$4#####$$$$$$$$$$$$######$$$%############$$$%#############$$############$###########$#####")
+print("###########$$#############$$4#####$$$$$$$$$$$$######$$$%############$$$%#######$$$$$$$$#####$$$$$$$$###$$$$$$$$$#####")
 name = input("Type your name: ")#input primary get string
 var  = int (input('Enter Your Age: '))
 if(var>17) :
@@ -7,13 +16,8 @@ if(var>17) :
 if(var>99) :
     print('In this world very low people can lives on hundred')
     print('your age is not 100 then you enterd worng number of your age')
-elif(var==17) :
+elif(var==17) & (var==16) :
     print("You eligibal for learning Driving license\n")
-#i think only one of elif can use for it but age toolkit wants many more elief
-#adding secound of elif
-elif(var==16) :
-    print('You eligibal for learning Driving license\n')
-#elese no worry about this is have this drving lincense checker i think is only use else one time
 else:
    print("You not eligible for get Driving license\n")
 #adding last of print for user
